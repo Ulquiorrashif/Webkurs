@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background:url("../img/1626265529_14-kartinkin-com-p-poloski-tekstura-besshovnaya-krasivo-18.jpg");
+    background-size: cover;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a, a:active, a:hover{
+    text-decoration: none;
+    color: white;
+}
+main{
+    width: 80vw;
+
+    margin: 0 10vw;
+    background-color: white;
+
+}
+main h2{
+    /*border-style: solid;*/
+    border-right: 5px  solid #fa7405;
+}
+header{
+    background-color: #282828;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 99vw;
+    height: 70px;
+}
+.header-img-cont{
+    display: flex;
+    justify-content: center;
+}
+.header-img-cont img{
+    width: 40%;
+    height: 100%;
+
+
+}
+
+.search{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search >input{
+    display: block;
+    width: 90%;
+    height: 20px;
+}
+.header-img-cont{
+    width: 30vw;
+
+}
+.header-icon-cont{
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-user-cont, .fa-heart-cont, .fa-basket-shopping-cont, .fa-books-cont{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    color: white;
+
+}
+header  i{
+    font-size: 20px;
+}
+
+
+/*Блок Новостей*/
+.news-cont{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 ;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3.1);
+    height: 200px;
+
+
+}
+.news>img{
+    display: block;
+    height: 85%;
+    width: 100%;
+}
+.news>span{
+    display: block;
+    height: 15%;
+    width: 100%;
+    font-size: 10px;
+}
+.news>a{
+    font-size: 8px;
+}
+
+/*Блок карточек с книгами*/
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0 ;
+
+    /*gap: calc((100% - 100%/3.5)/2);*/
+}
+article>h2{
+    display: block;
+    width: 100%;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100%/4.5);
+    height: 240px;
+    border-style: solid;
+    border-color: #fa7405;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+.card>img{
+    display: block;
+    width: 45%;
+    height: 80%;
+
+    /*object-fit: cover;*/
+}
+.card span{
+    display: block;
+    width: 55%;
+    height: 80%;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    width: 100%;
+    height: 40px;
+}
+.but-buy{
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 12px 0;
+    margin: 0;
+}
+
+.but-licke{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+.but-licke i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.but-licke p{
+    height: 100%;
+    margin: 0;
+    padding: 12px 0;
+}
+
+
+footer{
+    width: 100%;
+    font-size: 15px;
+    height: 7.5em;
+    color: white;
+    background-color: #1f1e1e;
+    z-index: 1;
+    display: grid;
+    grid-template: 30px repeat(5,1em)/repeat(4,1fr);
+
+    justify-items:center ;
+
+}
+footer li {
+    height: 1em;
+}
+.store-information{
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+}
+.add2{
+    width: 100%;
+
+    padding: 0;
+    position: relative;
+    align-self: center;
+
+
+    grid-row: 5 / 7;
+    grid-column: 1 / 2;
+}
+.information{
+    grid-row: 2 / 7;
+    grid-column: 2 / 3;
+}
+.extras{
+    grid-row: 2 / 7;
+    grid-column: 3 / 4;
+}
+.my-account{
+    grid-row: 2 / 7;
+    grid-column: 4 / 5;
+}
+.add2 ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.add2 li>i{
+    font-size: 15px;
+    color: white;
+    /*margin: 0 4px;
+    margin-bottom: -5px;*/
+    z-index: 10;
+}
+.add2 li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background:linear-gradient(90deg, #fab863 0, #cc5e03 62%);
+    z-index: 0;
+
+}
+
+li:hover::before{
+    bottom: 0;
+    transition:all 1s;
+
+}
+
+.add2 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #1f1e1e;
+
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 769px){
+    footer{grid-template: 30px repeat(12,1em)/repeat(2,1fr);}
+    .store-information{
+        width: 145px;
+        grid-row: 2 / 5;
+        grid-column: 1 / 2;
+    }
+    .add2{
+        width: 145px;
+
+        padding: 0;
+        position: relative;
+        align-self: center;
+
+
+        grid-row: 5 / 7;
+        grid-column: 1 / 2;
+    }
+    .information{
+        width: 145px;
+        grid-row: 2 / 7;
+        grid-column: 2 / 3;
+    }
+    .extras{
+        width: 145px;
+        grid-row: 8 / 12;
+        grid-column: 1 / 2;
+    }
+    .my-account{
+        width: 145px;
+        grid-row: 8 / 12;
+        grid-column: 2 / 3;
+    }
+}
+@media screen and (max-width: 768px) {
+    footer{grid-template: 30px repeat(24,1em)/repeat(1,1fr);}
+    .store-information{
+        width: 145px;
+        grid-row: 2 / 5;
+        grid-column: 1 / 2;
+    }
+    .add2{
+        width: 145px;
+
+        padding: 0;
+        position: relative;
+        align-self: center;
+
+
+        grid-row: 5 / 7;
+        grid-column: 1 / 2;
+    }
+    .information{
+        width: 145px;
+        grid-row: 8 / 14;
+        grid-column: 1 / 2;
+    }
+    .extras{
+        width: 145px;
+        grid-row: 14 / 19;
+        grid-column: 1 / 2;
+    }
+    .my-account{
+        width: 145px;
+        grid-row: 20 / 25;
+        grid-column: 1 / 2;
+    }
+}
