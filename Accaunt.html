@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bo:Store</title>
-    <link  rel="stylesheet" href="css/Style.css">
+    <title>Title</title>
     <link rel="stylesheet" href="css/StyleHead.css">
     <link rel="stylesheet" href="css/StyleFooter.css">
+    <link rel="stylesheet" href="css/StyleAcc.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <header>
@@ -25,7 +26,7 @@
         </div>
         <div class="fa-user-cont">
             <i class="fa-regular fa-user"></i>
-            <a href="Accaunt.html">Войти</a>
+            <a href="Accaunt.html">Acc</a>
         </div>
 
         <div class="fa-heart-cont">
@@ -43,65 +44,55 @@
     </div>
 </header>
 <main>
-    <div class="gal">
-        <div id ="id1"><img src="img/Freitag.webp"></div>
-        <div id ="id2"><img style="filter: brightness(.6)" src="img/Topboock.jpg"><h3>ТОП СЕЗОНА</h3></div>
-        <div id ="id3" ><img src="img/Skoro.jpg" style="filter: brightness(.6)"><h3>СКОРО В ПРОДАЖЕ</h3></div>
+    <div class="choice-cont">
+        <div class="choice-reg">Регистрация</div>
+        <div class="choice-enter">Войти</div>
+    </div>
+    <div class="reg-cont">
+        <form class="fEnter">
+            <h3 style="">Логин</h3>
+            <div class="input-cont" >
+                <span>Почта</span>
+                <i class="fa-solid fa-envelope"></i>
+                <span> : </span>
+                <input type="email" placeholder="Почта">
+                <div class="line"></div>
+            </div>
+            <div class="input-cont" >
+                <span>Пароль</span>
+                <i class="fa-solid fa-key"></i>
+                <span> : </span>
+                <input type="password" placeholder="Пароль">
+            </div>
+            <input type="button" value="Войти">
+<!--
+        </form>
+<!--        <form class="fReg">-->
+<!--            <h3 style="">Логин</h3>-->
+<!--            <div class="input-cont" >-->
+<!--                <span>Почта </span>-->
+<!--                <i class="fa-solid fa-envelope"></i>-->
+<!--                <span> : </span>-->
+<!--                <input type="email" placeholder="Почта">-->
+<!--                <div class="line"></div>-->
+<!--            </div>-->
+<!--            <div class="input-cont" >-->
+<!--                <span>Пароль </span>-->
+<!--                <i class="fa-solid fa-key"></i>-->
+<!--                <span> : </span>-->
+
+<!--                <input type="password" placeholder="Пароль">-->
+<!--            </div>-->
+<!--            <div class="input-cont" >-->
+<!--                <span>Пароль </span>-->
+<!--                <i class="fa-solid fa-key"></i>-->
+<!--                <span> : </span>-->
+<!--                <input type="password" placeholder="Повторите пароль">-->
+<!--            </div>-->
+<!--            <input type="button" value="Войти">-->
+<!--        </form>-->
 
     </div>
-
-    <article class="news-cont">
-        <h2>Новости и статьи</h2>
-
-        <section class="news">
-            <img src="img/news1.png" alt="Раньше тут была картинка">
-            <span> <h3 style="margin: 0">Дайджест новостей</h3>Новая экранизация «Хроник Нарнии»,
-                оживление классиков в «Эксмо» и не только
-                <a href="#">Подробнее ></a></span>
-
-        </section>
-        <section class="news">
-            <img src="img/new2.png" alt="Раньше тут была картинка">
-            <span> <h3 style="margin: 0">Бестселлер зарубежного TikTok: знакомство с книгой «Шестёрка Атласа»</h3>
-                Загадочная новинка Оливи Блейк
-                <a href="#">Подробнее ></a></span>
-
-
-        </section>
-        <section class="news">
-            <img src="img/new3.png" alt="Раньше тут была картинка">
-            <span> <h3 style="margin: 0">
-Что почитать, если ждёте сериал «Уэнсдэй»: 6 странных ужастиков в духе Тима Бёртона</h3>
-                Мрачные герои, юмор и интересный сюжет
-                <a href="#">Подробнее ></a></span>
-        </section>
-    </article>
-
-    <article class="autor - cont">
-        <h2>Самые популярные авторы</h2>
-
-        <section class="autor-card">
-            <img src="img/DRouling.jpeg" alt="Раньше тут была картинка">
-            <span>Джоан Роулинг</span>
-
-        </section>
-        <section class="autor-card">
-            <img src="img/Kingjpg.jpg" alt="Раньше тут была картинка">
-            <span>Стивен Кинг</span>
-
-        </section>
-        <section class="autor-card">
-            <img src="img/Oskar.jpg" alt="Раньше тут была картинка">
-            <span>Оскар Уайльд
- </span>
-        </section>
-
-        <section class="autor-card">
-            <img src="img/Dos.jpg" alt="Раньше тут была картинка">
-            <span>Ф.М. Достоевский </span>
-        </section>
-    </article>
-
 </main>
 <footer>
     <div class="store-information" >

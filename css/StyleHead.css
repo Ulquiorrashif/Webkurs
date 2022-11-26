@@ -1,0 +1,59 @@
+header{
+    background-color: #282828;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 99vw;
+    height: 12vh;
+}
+.header-img-cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.header-img-cont img{
+    width: 40%;
+    height: 100%;
+}
+.header-img-cont a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.search{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search >input{
+    display: block;
+    width: 90%;
+    height: 20px;
+}
+.header-img-cont{
+    width: 30vw;
+
+}
+.header-icon-cont{
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-user-cont, .fa-heart-cont, .fa-basket-shopping-cont, .fa-books-cont{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    color: white;
+
+}
+header  i{
+    font-size: 20px;
+}
