@@ -18,7 +18,7 @@ a, a:active, a:hover{
 }
 main{
     width: 80vw;
-    height: 68vh;
+    min-height: 68vh;
     margin: 0 10vw;
     background-color: white;
     padding: 10px 10px;

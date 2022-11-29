@@ -11,9 +11,10 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
+    width: 25vw;
 }
 .header-img-cont img{
-    width: 40%;
+    /*width: 40%;*/
     height: 100%;
 }
 .header-img-cont a{
@@ -31,13 +32,10 @@ header{
 }
 .search >input{
     display: block;
-    width: 90%;
-    height: 20px;
+    width: 95%;
+    height: 25px;
 }
-.header-img-cont{
-    width: 30vw;
 
-}
 .header-icon-cont{
     display: flex;
     width: 30vw;

@@ -38,7 +38,7 @@ main{
     text-align: center;
     width: 100px;
     height: 20px;
-    background-color: #f68213;
+        /*background-color: #f68213;*/
     /*margin-right: 10px;*/
     border-style: solid;
     border-top-right-radius: 10px;
@@ -105,6 +105,7 @@ main{
 .input-cont input{
     border-style: none;
     background-color: #f5f5d6;
+    width: calc(2*(100%/3));
 }
 
 /*#fa7405*/
