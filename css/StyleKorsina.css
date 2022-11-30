@@ -116,9 +116,9 @@ img{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: #282828 solid 1px;
+    /*border: #282828 solid 1px;*/
     border-radius: 10px;
-    box-shadow:  0 0 5px 2px rgba(204,94,3,0.5);
+    box-shadow:  0 0 5px 2px rgba(40,40,40,0.5);
     padding: 5px;
 }
 
@@ -136,4 +136,62 @@ img{
 }
 h3, .adres-cont, #ul{
     width: 99%;
+}
+@media screen and (max-width: 550px){
+    main{
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-template-areas:
+        " h1 "
+        " h2 "
+        " h3 "
+    ;
+        justify-items: center;
+    }
+    h2{
+        padding: 10px 3px;
+    }
+    aside{
+        grid-area: h3;
+        width: 90%;
+    }
+    section{
+        width: 90%;
+
+    }
+    article{
+        flex-wrap: wrap;
+    }
+     main form{
+        width: 90%;
+        margin: 20px 0px;
+         padding: 5px 0px;
+         align-items: center;
+    }
+    .adres-cont{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #ul{
+        width: 96%;
+    }
+    .adres-cont input{
+        width: 96%;
+    }
+    main form input{
+        width: 96%;
+    }
+    article .img-cont{
+        width: 90%;
+    }
+    .img-cont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-cont img{
+        object-fit: contain;
+    }
 }

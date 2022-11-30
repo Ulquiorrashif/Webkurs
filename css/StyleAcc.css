@@ -19,7 +19,7 @@ a, a:active, a:hover{
 main{
     display: flex;
     flex-direction: column;
-    //justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     height: 68vh;
     width: 80vw;
@@ -51,7 +51,7 @@ main{
 }
 .reg-cont{
     width: 60%;
-    height: 60%;
+    height: 70%;
 
     border: 2px solid #282828;
     border-radius: 10px;
@@ -109,3 +109,34 @@ main{
 }
 
 /*#fa7405*/
+@media screen and (max-width: 950px) {
+
+    .input-cont > span{
+        display: none;
+    }
+    .input-cont input{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 570px) {
+
+    .choice-cont{
+        width: 80%;
+    }
+    .reg-cont{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 424px) {
+    .choice-reg, .choice-enter{
+        width: 70px;
+        font-size: 10px;
+        text-align: center;
+        height: 15px;
+    }
+    .fReg, .fEnter{
+        width: 90%;
+    }
+
+}

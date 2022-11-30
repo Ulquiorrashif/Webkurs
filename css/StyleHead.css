@@ -56,10 +56,10 @@ header{
 
 }
 header  i{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 header a{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 @media screen and (max-width: 950px) {
     header{
@@ -67,6 +67,7 @@ header a{
         flex-wrap: wrap;
         flex-direction: column;
         height: 12vh;
+        transition: all 1s;
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
@@ -77,8 +78,8 @@ header a{
         background-color: #282828;
         width: 100%;
         transition: all .5s;
-        height: 69px;
-        height: 12vh;
+        height: 5rem;
+        /*height: 12vh;*/
     }
     .search{
         position: absolute;
@@ -95,7 +96,7 @@ header a{
         /*position: absolute;*/
         /*top:16vh;*/
         /*z-index: -1;*/
-        transform: translateY(-30vh);
+        transform: translateY(-5rem);
 
     }
     .fa-user-cont, .fa-heart-cont, .fa-basket-shopping-cont, .fa-books-cont{

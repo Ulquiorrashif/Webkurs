@@ -47,6 +47,6 @@ choiseReg.addEventListener("click",()=>{
         "                <span> : </span>\n" +
         "                <input type=\"password\" placeholder=\"Повторите пароль\">\n" +
         "            </div>\n" +
-        "            <input type=\"button\" value=\"Войти\">\n" +
+        "            <input type=\"button\" value=\"Создать\">\n" +
         "        </form>";
 })
