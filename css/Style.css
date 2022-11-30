@@ -4,6 +4,8 @@
     font-family: 'Nunito', sans-serif;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     background:url("../img/1626265529_14-kartinkin-com-p-poloski-tekstura-besshovnaya-krasivo-18.jpg");
     background-size: cover;
