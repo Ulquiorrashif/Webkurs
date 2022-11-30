@@ -11,16 +11,18 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 25vw;
 }
 .header-img-cont img{
-    /*width: 40%;*/
-    height: 100%;
+    width: 126px;
+    height: 64px;
 }
 .header-img-cont a{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    margin: 0 auto;
+    width: 40%;
+    height: 30%;
 }
 
 .search{
@@ -54,4 +56,70 @@ header{
 }
 header  i{
     font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    header{
+        position: relative;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 12vh;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .header-img-cont{
+        z-index: 13;
+        background-color: #282828;
+        width: 100%;
+        transition: all .5s;
+        height: 69px;
+        height: 12vh;
+    }
+    .search{
+        position: absolute;
+        top:100%;
+        /*transform: translateY(-18vh);*/
+        /*display: none;*/
+        z-index: -1;
+
+    }
+    .header-icon-cont{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px 0px;
+        /*position: absolute;*/
+        /*top:16vh;*/
+        /*z-index: -1;*/
+        transform: translateY(-30vh);
+
+    }
+    .fa-user-cont, .fa-heart-cont, .fa-basket-shopping-cont, .fa-books-cont{
+        width: 100%;
+        flex-direction: row;
+        gap: 0px 10px;
+    }
+    header:hover{
+
+        transition: all 1s;
+        /*transition-delay: .5s ;*/
+        height: 36vh;
+    }
+    header:hover .search{
+        /*transition-delay: 5s ;*/
+        /*transition: all 2s ;*/
+        top:13.8vh;
+
+        /*transform: translateY(0);*/
+
+        z-index: 1;
+    }
+    header:hover .header-icon-cont{
+        margin: 5px 0;
+        transition: all 0.5s ;
+        /*transition-delay: 2s ;*/
+        transform: translateY(0);
+        z-index: 1;
+    }
+
 }
