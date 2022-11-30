@@ -52,12 +52,16 @@ header{
     justify-content: stretch;
     align-items: center;
     color: white;
+    font-size: 20px;
 
 }
 header  i{
-    font-size: 20px;
+    font-size: 1.5rem;
 }
-@media screen and (max-width: 768px) {
+header a{
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 950px) {
     header{
         position: relative;
         flex-wrap: wrap;
@@ -99,11 +103,14 @@ header  i{
         flex-direction: row;
         gap: 0px 10px;
     }
+    /*.fa-basket-shopping, .fa-heart, .fa-user, .fa-book{*/
+    /*    font-size: 30px;*/
+    /*}*/
     header:hover{
 
         transition: all 1s;
         /*transition-delay: .5s ;*/
-        height: 36vh;
+        height: 40vh;
     }
     header:hover .search{
         /*transition-delay: 5s ;*/
@@ -118,7 +125,7 @@ header  i{
         margin: 5px 0;
         transition: all 0.5s ;
         /*transition-delay: 2s ;*/
-        transform: translateY(0);
+        transform: translateY(0px);
         z-index: 1;
     }
 
