@@ -17,6 +17,9 @@ a, a:active, a:hover{
     color: white;
 }
 main{
+    display: flex;
+    align-items: start;
+    min-height: 68vh;
     width: 80vw;
     min-height: 68vh;
     margin: 0 10vw;
@@ -27,6 +30,12 @@ main{
 main h2{
     /*border-style: solid;*/
     border-right: 5px  solid #fa7405;
+}
+.card .but-licke{
+    background-color: #ff4343;
+}
+.but-licke .fa-heart{
+    color: #ff0000;
 }
 
 /*article{*/

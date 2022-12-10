@@ -20,6 +20,7 @@ main{
     position: relative;
     width: 80vw;
     /*height: 100vh;*/
+    min-height: 68vh;
     margin: 0 10vw;
     background-color: white;
     display: flex;
@@ -100,6 +101,9 @@ article{
     box-shadow:  0 0 5px 2px rgba(122,122,122,0.5);
     border-left: #cc5e03 solid 10px;
     border-radius: 10px;
+}
+.info-cont{
+    min-width: 220px;
 }
 .img-cont{
     width: 60px;

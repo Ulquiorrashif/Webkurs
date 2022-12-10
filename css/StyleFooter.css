@@ -1,7 +1,7 @@
 
 footer{
 
-    width: 100%;
+    width: 100vw;
     font-size: 15px;
     height: 20vh;
     color: white;
@@ -96,12 +96,12 @@ li:hover::before{
         height: 14.5em;
     }
     .store-information{
-        width: 145px;
+        width: 230px;
         grid-row: 2 / 5;
         grid-column: 1 / 2;
     }
     .add2{
-        width: 145px;
+        width: 230px;
 
         padding: 0;
         position: relative;
@@ -112,17 +112,17 @@ li:hover::before{
         grid-column: 1 / 2;
     }
     .information{
-        width: 145px;
+        width: 230px;
         grid-row: 2 / 7;
         grid-column: 2 / 3;
     }
     .extras{
-        width: 145px;
+        width: 230px;
         grid-row: 8 / 12;
         grid-column: 1 / 2;
     }
     .my-account{
-        width: 145px;
+        width: 230px;
         grid-row: 8 / 12;
         grid-column: 2 / 3;
     }
@@ -132,12 +132,12 @@ li:hover::before{
         height: 26.5em;
     }
     .store-information{
-        width: 145px;
+        width: 230px;
         grid-row: 2 / 5;
         grid-column: 1 / 2;
     }
     .add2{
-        width: 145px;
+        width: 230px;
 
         padding: 0;
         position: relative;
@@ -148,17 +148,17 @@ li:hover::before{
         grid-column: 1 / 2;
     }
     .information{
-        width: 145px;
+        width: 230px;
         grid-row: 8 / 14;
         grid-column: 1 / 2;
     }
     .extras{
-        width: 145px;
+        width: 230px;
         grid-row: 14 / 19;
         grid-column: 1 / 2;
     }
     .my-account{
-        width: 145px;
+        width: 230px;
         grid-row: 20 / 25;
         grid-column: 1 / 2;
     }

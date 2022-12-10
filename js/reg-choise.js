@@ -1,6 +1,8 @@
 const regCont = document.querySelector(".reg-cont")
 const choiseReg=document.querySelector(".choice-reg")
 const choiseEnter=document.querySelector(".choice-enter")
+
+//Добавление EventListener, который будет выводить форму для входа в аккаунт
 choiseEnter.addEventListener("click",()=>{
     choiseEnter.style.backgroundColor="#f68213";
     choiseReg.style.backgroundColor="#ffffff";
@@ -22,6 +24,7 @@ choiseEnter.addEventListener("click",()=>{
         "          <input type=\"button\" value=\"Войти\">\n" +
         "        </form>";
 })
+//Добавление EventListener, который будет выводить форму регистрации аккаунта
 choiseReg.addEventListener("click",()=>{
     choiseReg.style.backgroundColor="#f68213";
     choiseEnter.style.backgroundColor="#ffffff";

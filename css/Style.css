@@ -21,6 +21,7 @@ a, a:active, a:hover{
 }
 main{
     width: 80vw;
+    min-height: 68vh;
     margin: 0 10vw;
     background-color: white;
 
@@ -102,7 +103,7 @@ div h3{
 }
 .news>span{
     display: block;
-    height: 10rem;
+    /*height: 10rem;*/
     width: 100%;
     /*font-size: 15px;*/
 }
@@ -192,7 +193,7 @@ article{
 
     }
     .news span{
-        height: 7rem;
+        /*height: 7rem;*/
     }
     /*.news-cont img{*/
     /*    height: 70%;*/
@@ -233,7 +234,7 @@ article{
 
     }
     .news span{
-        height: 10rem;
+        /*height: 10rem;*/
     }
     .autor-cont{
         flex-direction: column;
@@ -294,7 +295,7 @@ article{
 
     }
     .news span{
-        height: 10rem;
+        /*height: 10rem;*/
     }
     .autor-cont{
         flex-direction: column;
